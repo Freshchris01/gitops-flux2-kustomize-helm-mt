@@ -13,8 +13,8 @@ spec:
         kind: HelmRepository
         name: podinfo
         namespace: cluster-config
-      values:
-        replicaCount: 4
+    values:
+      replicaCount: 4
   interval: 5m
   install:
     remediation:
