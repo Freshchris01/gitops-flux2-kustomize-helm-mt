@@ -12,9 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo
-        namespace: cluster-config
-  values:
-    replicaCount: 4
+        namespace: cluster-config 
   interval: 5m
   install:
     remediation:
@@ -22,6 +20,7 @@ spec:
   # Default values
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
+    replicaCount: 4
     cache: redis-master.redis:6379
     ingress:
       enabled: true
