@@ -19,7 +19,7 @@ spec:
       retries: 3
   # Default values
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
-  values:
+  valuess:
     replicaCount: 3
     cache: redis-master.redis:6379
     ingress:
