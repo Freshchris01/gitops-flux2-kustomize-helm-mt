@@ -20,7 +20,7 @@ spec:
   # Default values
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
-    replicaCount: 1
+    replicaCount: 3
     cache: redis-master.redis:6379
     ingress:
       enabled: true
