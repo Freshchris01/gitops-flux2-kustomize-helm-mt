@@ -11,7 +11,7 @@ spec:
       chart: podinfo
       sourceRef:
         kind: HelmRepository
-        name: podinfo
+        name: podinfoo
         namespace: cluster-config 
   interval: 5m
   install:
